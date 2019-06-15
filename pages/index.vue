@@ -1,14 +1,14 @@
 <template>
   <div class="container">
     <div>
-      <logo />
-      <h1 class="title">
+      <!-- <logo /> -->
+      <!-- <h1 class="title">
         learn-vue-app
-      </h1>
+      </h1> -->
       <h2 class="subtitle">
-        My splendiferous Nuxt.js project
+        Welcome to learn-vue-app!
       </h2>
-      <div class="links">
+      <!-- <div class="links">
         <a
           href="https://nuxtjs.org/"
           target="_blank"
@@ -19,6 +19,15 @@
           target="_blank"
           class="button--grey"
         >GitHub</a>
+      </div> -->
+      <div>
+        <nuxt-link to="/introduction">💌 Introduction</nuxt-link>
+      </div>
+      <div>
+        <nuxt-link to="/hello-world">👋 Hello World</nuxt-link>
+      </div>
+      <div>
+        <nuxt-link to="/data-binding">🧵 Data Binding</nuxt-link>
       </div>
     </div>
   </div>
