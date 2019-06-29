@@ -20,14 +20,8 @@
           class="button--grey"
         >GitHub</a>
       </div> -->
-      <div>
-        <nuxt-link to="/introduction">💌 Introduction</nuxt-link>
-      </div>
-      <div>
-        <nuxt-link to="/hello-world">👋 Hello World</nuxt-link>
-      </div>
-      <div>
-        <nuxt-link to="/data-binding">🧵 Data Binding</nuxt-link>
+      <div v-for="item in $options.tutorialData" v-bind:key="item.id">
+        <nuxt-link :to="item.path">{{item.name}}</nuxt-link>
       </div>
     </div>
   </div>
@@ -35,11 +29,13 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import tutorial_data from '~/assets/tutorial-data.json'
 
 export default {
   components: {
     Logo
-  }
+  },
+  tutorialData: tutorial_data
 }
 </script>
 

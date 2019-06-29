@@ -38,12 +38,16 @@
         The code names of Vue releases are, well... <a href="https://github.com/egoist/always-bet-on-vue" target="_blank" rel="noopener noreferrer">see for yourself</a>. 😉
       </li>
     </ul>
+    <TutorialNavigation/>
   </div>
 </template>
 
 <script>
+  import TutorialNavigation from '~/components/TutorialNavigation.vue'
   export default {
-
+    components: {
+      TutorialNavigation
+    }
   }
 </script>
 

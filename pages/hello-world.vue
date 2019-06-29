@@ -29,11 +29,16 @@
         You'll see the updated greeting message on the page.
       </li>
     </ol>
+    <TutorialNavigation/>
   </div>
 </template>
 
 <script>
+  import TutorialNavigation from '~/components/TutorialNavigation.vue'
   export default {
+    components: {
+      TutorialNavigation
+    },
     data() {
       return {
         name: 'foo'
