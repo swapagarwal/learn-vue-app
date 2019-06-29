@@ -19,7 +19,7 @@
     </ol>
     <br>
     <h2>I'm sold, what now?</h2>
-    Head over to the next tutorial and enjoy the view!
+    Head over to the <nuxt-link to="/hello-world">next tutorial</nuxt-link> and enjoy the view!
     <br><br>
     <h2>Fun Facts</h2>
     <ul>
