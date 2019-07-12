@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Hello Vue</title>
+</head>
+<body>
+  <div id="app">
+    <h1 class="heading">Hello {{ name }}! Welcome to learn-vue-app.</h1>
+  </div>
+
+  <script src="https://unpkg.com/vue"></script>
+
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        name: 'Foo'
+      }
+    })
+  </script>
+</body>
+</html>
