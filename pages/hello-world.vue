@@ -1,5 +1,6 @@
 <template>
   <div class='tutorial'>
+    <Exercise/>
     <h2>Hello {{ name }}! Welcome to learn-vue-app.</h2>
     <br>
     What's your name? <input v-model='name'>
@@ -34,9 +35,11 @@
 </template>
 
 <script>
+  import Exercise from '~/components/Exercise.vue'
   import TutorialNavigation from '~/components/TutorialNavigation.vue'
   export default {
     components: {
+      Exercise,
       TutorialNavigation
     },
     data() {

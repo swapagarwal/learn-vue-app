@@ -7,7 +7,15 @@
   {
     "id": "HelloWorld",
     "path": "/hello-world",
-    "name": "1 - Hello World 👋"
+    "name": "1 - Hello World 👋",
+    "exercise": {
+      "display": "static/hello-world.html",
+      "source": "/hello-world.html"
+    },
+    "solution": {
+      "display": "static/hello-world-solution.html",
+      "source": "/hello-world-solution.html"
+    }
   },
   {
     "id": "DataBinding",
