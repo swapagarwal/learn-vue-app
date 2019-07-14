@@ -52,5 +52,8 @@
 </script>
 
 <style scoped>
-
+.tutorial {
+  width: 80%;
+  margin: auto;
+}
 </style>
