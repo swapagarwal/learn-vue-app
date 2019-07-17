@@ -1,5 +1,6 @@
 <template>
   <div class='tutorial'>
+    <pre v-highlightjs="html"><code class="html"></code></pre>
     <Exercise/>
     <h2>Hello {{ name }}! Welcome to learn-vue-app.</h2>
     <br>
@@ -44,7 +45,15 @@
     },
     data() {
       return {
-        name: 'foo'
+        name: 'foo',
+        html: `<html>
+    <head></head>
+    <body>
+        <div>
+            <h1>Hello John Doe! Welcome to learn-vue-app.</h1>
+        </div>
+    </body>
+</html>`
       }
     }
   }
