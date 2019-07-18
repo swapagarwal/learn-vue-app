@@ -1,6 +1,6 @@
 <template>
   <div>
-    <br>
+    <br><br>
     <span class="left">
       <nuxt-link v-if="previous($nuxt.$route.path)" :to="previous($nuxt.$route.path).path">{{previous($nuxt.$route.path).name}}</nuxt-link>
       <p v-else>&nbsp;</p>
@@ -12,7 +12,7 @@
       <nuxt-link v-if="next($nuxt.$route.path)" :to="next($nuxt.$route.path).path">{{next($nuxt.$route.path).name}}</nuxt-link>
       <p v-else>&nbsp;</p>
     </span>
-    <br>
+    <br><br>
   </div>
 </template>
 
