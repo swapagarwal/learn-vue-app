@@ -21,5 +21,15 @@
     "id": "DataBinding",
     "path": "/data-binding",
     "name": "2 - Data Binding 🧵"
+  },
+  {
+    "id": "BrowserSetup",
+    "path": "/browser-setup",
+    "name": "100 - Browser Setup 🌐"
+  },
+  {
+    "id": "Draft",
+    "path": "/draft",
+    "name": "3000 - Draft 💃"
   }
 ]
