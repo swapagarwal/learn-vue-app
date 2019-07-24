@@ -49,4 +49,8 @@
 .is-loading {
   background: red;
 }
+.tutorial {
+  width: 80%;
+  margin: auto;
+}
 </style>
