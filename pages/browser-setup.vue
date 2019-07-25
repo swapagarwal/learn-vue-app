@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="tutorial">
     <h2>Hello {{ name }}! Welcome to learn-vue-app.</h2>
     <br>
     What's your name? <input v-model='name'>
@@ -48,5 +48,8 @@
 </script>
 
 <style scoped>
-
+.tutorial {
+  width: 80%;
+  margin: auto;
+}
 </style>
