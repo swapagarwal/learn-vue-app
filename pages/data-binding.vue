@@ -14,15 +14,22 @@
     And we get the heading text, styled in red color, as follows:
     <h1 v-bind:class="className">Hello World</h1>
     <br>
-    Try out the exercise below.
+    Try out the exercise below. It will help you reinforce some previous concepts as well. If you get stuck, feel free to refer to the solution file.
+    <br><br>
+    <Exercise/>
+    When you're done, move on to the next tutorial.
+    <br><br>
+    P.S. Since it's a common use-case, Vue provides a shorthand for this directive. Apart from the v-bind:attribute="expression" syntax, we can use :attribute="expression" as well.
     <TutorialNavigation/>
   </div>
 </template>
 
 <script>
+  import Exercise from '~/components/Exercise.vue'
   import TutorialNavigation from '~/components/TutorialNavigation.vue'
   export default {
     components: {
+      Exercise,
       TutorialNavigation
     },
     data() {

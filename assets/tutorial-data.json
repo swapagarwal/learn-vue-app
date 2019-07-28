@@ -20,7 +20,15 @@
   {
     "id": "DataBinding",
     "path": "/data-binding",
-    "name": "2 - Data Binding 🧵"
+    "name": "2 - Data Binding 🧵",
+    "exercise": {
+      "display": "pages/exercises/data-binding.vue",
+      "source": "/exercises/data-binding"
+    },
+    "solution": {
+      "display": "pages/exercises/solutions/data-binding-solution.vue",
+      "source": "/exercises/solutions/data-binding-solution"
+    }
   },
   {
     "id": "BrowserSetup",
