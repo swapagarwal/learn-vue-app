@@ -20,7 +20,7 @@
           class="button--grey"
         >GitHub</a>
       </div> -->
-      <div v-for="item in $options.tutorialData" v-bind:key="item.id">
+      <div class="items" v-for="item in $options.tutorialData" v-bind:key="item.id">
         <nuxt-link :to="item.path">{{item.name}}</nuxt-link>
       </div>
     </div>
@@ -69,5 +69,10 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+
+.items {
+  font-size: 24px;
+  padding-bottom: 8px;
 }
 </style>
