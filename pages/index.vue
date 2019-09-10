@@ -8,6 +8,7 @@
       <h2 class="subtitle">
         Welcome to learn-vue-app!
       </h2>
+      <p class="byline">An interactive tutorial to get you started with the fundamentals of Vue.js</p>
       <!-- <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -63,6 +64,13 @@ export default {
   font-weight: 300;
   font-size: 42px;
   color: #526488;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+
+.byline {
+  font-weight: 500;
+  font-size: 24px;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
