@@ -1,12 +1,12 @@
 <template>
   <div class='tutorial'>
-    <h2>What's the buzz around Vue.js, anyway?</h2>
+    <h2>🦄 What's the buzz around Vue.js, anyway?</h2>
     Vue (pronounced like view) is a progressive framework for building user interfaces.
     <br><br>
-    <h2>Umm, what do you mean by progressive?</h2>
+    <h2>🤔 Umm, what do you mean by progressive?</h2>
     So the idea behind calling Vue a progressive framework (and not just another javascript framework) is that you can start small and gradually build something bigger. Basically you can just drop Vue.js into your project and adopt it incrementally.
     <br><br>
-    <h2>Well, is that all..?</h2>
+    <h2>👻 Well, is that all..?</h2>
     Glad you asked! Vue is also reactive - so when any data changes, Vue takes care of updating it at all the places it's being used.
     <br><br>
     But wait... there's more! Vue is also:
@@ -20,10 +20,10 @@
     <br>
     You'll fall in love with Vue's simplicity, I promise!
     <br><br>
-    <h2>I'm sold! What now?</h2>
+    <h2>🤑 I'm sold! What now?</h2>
     Head over to the <nuxt-link to="/hello-world">next tutorial</nuxt-link> and enjoy the vue! (see what I did there? 😏)
     <br><br>
-    <h2>Fun Facts</h2>
+    <h2>🤪 Fun Facts</h2>
     <ul>
       <li>
         Vue was created by Evan You after working for Google using AngularJS in a number of projects.
