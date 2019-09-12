@@ -5,7 +5,7 @@
     Here's a sample HTML file:
     <pre v-highlightjs="html"><code class="html"></code></pre>
     <br>
-    Now, I had promised you in the introduction that you can start small with Vue. So to add Vue here, you can just load Vue via CDN like this:
+    Now, I had promised you in the introduction that you can start small with Vue. So to add Vue in any HTML file, you can just load Vue via CDN like this:
     <pre v-highlightjs="unpkg"><code class="html"></code></pre>
     <br>
     Next, we modify the "div" to include an "id" (we'll see why below) and use the "name" via template syntax (double curly braces):
