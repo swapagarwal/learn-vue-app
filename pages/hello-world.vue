@@ -14,7 +14,7 @@
     Finally, we create a Vue instance using:
     <pre v-highlightjs="app"><code class="html"></code></pre>
     <br>
-    Two things to note here:
+    There are two things to note here:
     <ol>
       <li>"el" takes the CSS selector of the element where we want to attach the Vue instance (that's why we added it before!).</li>
       <li>"data" contains the model object which will be accessible inside the element selected above.</li>
