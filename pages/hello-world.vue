@@ -27,7 +27,7 @@
     <br><br>
     Done? Does your output (right side) match the expected output (left side)?
     <br>
-    If yes, congratulations! You've successfully started your Vuetiful journey! See you in the next tutorial.
+    If yes, congratulations! You've successfully started your Vuetiful journey! See you in the next tutorial. 👋
     <TutorialNavigation/>
   </div>
 </template>
