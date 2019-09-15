@@ -2,7 +2,7 @@
   <div class="tutorial">
     In simple terms, data binding refers to the ability of views to automatically update when models (data) change.
     <br><br>
-    You can use the "v-bind" attribute to attach data to an element. The syntax is:
+    You can use the "v-bind" directive to attach data to an element. The syntax is:
     <pre v-highlightjs="syntax"><code class="html"></code></pre>
     <br>
     For example, we can add a class to an element like this:
