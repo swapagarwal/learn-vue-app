@@ -31,6 +31,11 @@
     }
   },
   {
+    "id": "EventBinding",
+    "path": "/event-binding",
+    "name": "3 - Event Binding ⚡"
+  },
+  {
     "id": "BrowserSetup",
     "path": "/browser-setup",
     "name": "100 - Browser Setup 🌐"
