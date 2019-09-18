@@ -33,7 +33,15 @@
   {
     "id": "EventBinding",
     "path": "/event-binding",
-    "name": "3 - Event Binding ⚡"
+    "name": "3 - Event Binding ⚡",
+    "exercise": {
+      "display": "pages/exercises/event-binding.vue",
+      "source": "/exercises/event-binding"
+    },
+    "solution": {
+      "display": "pages/exercises/solutions/event-binding-solution.vue",
+      "source": "/exercises/solutions/event-binding-solution"
+    }
   },
   {
     "id": "BrowserSetup",

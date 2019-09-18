@@ -13,14 +13,23 @@
     <br>
     That's all! Test out the button by clicking it:
     <button v-on:click="showPopup">Click Me</button>
+    <br><br>
+    Try out the exercise below. It will help you reinforce some previous concepts as well. If you get stuck, feel free to refer to the solution file.
+    <br><br>
+    <Exercise/>
+    Refresh the page to see the changes reflected above. When you're done, move on to the next tutorial.
+    <br><br>
+    P.S. Being a common use-case (interactivity is everywhere), Vue provides a shorthand for this directive as well. We can replace v-on:event.modifier="expression" with @event.modifier="expression".
     <TutorialNavigation/>
   </div>
 </template>
 
 <script>
+  import Exercise from '~/components/Exercise.vue'
   import TutorialNavigation from '~/components/TutorialNavigation.vue'
   export default {
     components: {
+      Exercise,
       TutorialNavigation
     },
     data() {
