@@ -15,7 +15,7 @@
       <li>💪 Versatile - Vue can be used as a library as well as a framework.</li>
       <li>⚡ Performant - It's blazing fast and adds only 20KB to your bundle size.</li>
       <li>✍️ Maintainable - As you'll see in the "Single File Component" tutorial, Vue makes it effortless to manage complex interfaces as well.</li>
-      <li>🧪 Testable - This is more like a prerequisite for any new framework nowadays. 🤷‍♂️</li>
+      <li>🧪 Testable - This is more like a prerequisite for any new framework nowadays.</li>
     </ol>
     <br>
     You'll fall in love with Vue's simplicity, I promise!
