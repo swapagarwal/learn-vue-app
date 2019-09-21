@@ -18,7 +18,7 @@
       <li>🧪 Testable - This is more like a prerequisite for any new framework nowadays.</li>
     </ol>
     <br>
-    You'll fall in love with Vue's simplicity, I promise!
+    You'll fall in love with Vue's simplicity, I promise! 👊
     <br><br>
     <h2>🤑 I'm sold! What now?</h2>
     Head over to the <nuxt-link to="/hello-world">next tutorial</nuxt-link> and enjoy the vue! (see what I did there? 😏)
