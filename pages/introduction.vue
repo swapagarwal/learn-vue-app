@@ -1,5 +1,6 @@
 <template>
   <div class='tutorial'>
+    <br><br>
     <h2>🦄 What's the buzz around Vue.js, anyway?</h2>
     Vue (pronounced like view) is a progressive framework for building user interfaces.
     <br><br>
