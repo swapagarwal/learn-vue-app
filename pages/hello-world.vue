@@ -1,5 +1,6 @@
 <template>
   <div class='tutorial'>
+    <br><br>
     Let's start! 👊
     <br><br>
     Here's a sample HTML file:
