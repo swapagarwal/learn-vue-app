@@ -1,5 +1,6 @@
 <template>
   <div class="tutorial">
+    <br><br>
     In simple terms, data binding refers to the ability of views to automatically update when models (data) change.
     <br><br>
     You can use the "v-bind" directive to attach data to an element. The syntax is:
