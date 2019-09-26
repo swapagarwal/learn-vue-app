@@ -1,5 +1,6 @@
 <template>
   <div class="tutorial">
+    <br><br>
     Often we need to execute some JavaScript code when an event (clicking a HTML element, submitting a form, pressing a key, etc.) occurs.
     <br><br>
     Vue provides the "v-on" directive for this use-case. The syntax is:
