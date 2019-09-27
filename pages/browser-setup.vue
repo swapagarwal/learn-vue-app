@@ -1,5 +1,6 @@
 <template>
   <div class="tutorial">
+    <br><br>
     <h2>Hello {{ name }}! Welcome to learn-vue-app.</h2>
     <br>
     What's your name? <input v-model='name'>
