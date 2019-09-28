@@ -1,7 +1,7 @@
 <template>
   <div>
     <pre>
-      This is a place for me to jot down unsorted ideas. This component should be removed once the tutorial is complete!
+      This is a place for me to jot down unsorted ideas. This page should be removed once the tutorial is complete!
 
       Lists + Events
       Conditionals + Loops
