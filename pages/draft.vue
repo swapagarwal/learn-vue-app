@@ -3,7 +3,7 @@
     <pre>
       This is a place for me to jot down unsorted ideas. This page should be removed once the tutorial is complete!
 
-      Lists + Events
+      Lists
       Conditionals + Loops
 
       (recap - boots are in stock)
