@@ -3,7 +3,7 @@
     <br><br>
     Often we need to execute some JavaScript code when an event (clicking a HTML element, submitting a form, pressing a key, etc.) occurs.
     <br><br>
-    Vue provides the "v-on" directive for this use-case. The syntax is:
+    Vue provides the "v-on" directive for this use-case, the syntax being:
     <pre v-highlightjs="syntax"><code class="html"></code></pre>
     <br>
     Let's try to show a popup when a button is clicked. To do that, we can add the event handler like this:
